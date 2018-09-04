@@ -1,0 +1,35 @@
+html,
+body {
+  padding: 0;
+  margin: 0;
+  max-width: 700px;
+  margin: 50px auto auto auto;
+}
+
+.container-cards {
+  display: -ms-grid;
+  display: grid;
+  -ms-grid-columns: auto auto auto auto auto;
+      grid-template-columns: auto auto auto auto auto;
+  grid-column-gap: 10px;
+  grid-row-gap: 30px;
+  margin: auto;
+}
+
+.container-cards .background-card {
+  display: block;
+  background: #000;
+  border: 1px solid black;
+  height: 100px;
+  cursor: pointer;
+  width: 100px;
+}
+
+.container-cards .card img {
+  width: 100px;
+  border: 1px solid black;
+  cursor: pointer;
+  display: none;
+  height: 100px;
+}
+/*# sourceMappingURL=index.css.map */
